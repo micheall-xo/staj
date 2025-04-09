@@ -36,7 +36,7 @@ portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/micheall-xo/staj>
    ```
 
 2. Navigate to the project directory:
@@ -95,38 +95,6 @@ portfolio/
 
 To run the website locally, you can use any local server. Here are a few options:
 
-1. Using Python:
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   ```
-
-2. Using Node.js:
-   ```bash
-   # Install http-server globally
-   npm install -g http-server
-   
-   # Run the server
-   http-server
-   ```
-
-Then open your browser and navigate to `http://localhost:8000`
-
-## Customization
-
-### Colors
-You can customize the color scheme by modifying the CSS variables in `css/style.css`:
-
-```css
-:root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --text-color: #1f2937;
-    --light-text: #6b7280;
-    --background: #ffffff;
-    --section-bg: #f3f4f6;
-}
-```
 
 ### Content
 1. Update the hero section in `index.html` with your information
